@@ -1,0 +1,14 @@
+[package]
+name = "diesel-geometry-postgis"
+version = "0.1.0"
+authors = ["Etienne Prothon"]
+edition = "2018"
+description = "Diesel support for PostGIS geometry types"
+keywords = ["database", "sql", "orm"]
+categories = ["database"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4", features = ["postgres"] }
+postgis = "0.6"
